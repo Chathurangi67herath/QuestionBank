@@ -1,0 +1,154 @@
+body {
+  background-color: #110f1b;
+}
+
+body .container {
+  background-color: #858488;
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .first {
+  background-color: #b3b3bb;
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body .container .first .line {
+  height: 1%;
+  border-radius: 15px;
+  margin-top: 2.5%;
+}
+
+body .container .first #one {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+}
+
+body .container .first #two {
+  position: absolute;
+  z-index: 2;
+  background-color: #200a5e;
+  width: 25%;
+}
+
+body .container .first .contend {
+  font-size: 150%;
+  padding-top: 10%;
+}
+
+body .container .first .contend .answer {
+  background-color: white;
+  margin-top: 10%;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+body .container .first .contend .answer .input {
+  height: 30px;
+  font-size: large;
+  color: #200a5e;
+  text-align: center;
+}
+
+body .container .first .contend .answer #printf {
+  width: 15%;
+}
+
+body .container .first .contend .answer #quotes {
+  width: 5%;
+}
+
+body .container .first .contend .answer #semicolan {
+  width: 5%;
+}
+
+body .container .first .contend .well {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  padding: 3%;
+  margin-top: 8%;
+  visibility: hidden;
+}
+
+body .container .first .contend .buttons {
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .first .contend .buttons .bottom {
+  width: 50%;
+  height: 100px;
+}
+
+body .container .first .contend .buttons .btn {
+  width: 34%;
+  height: 50%;
+  font-size: 70%;
+}
+
+body .container .first .contend .buttons .btn:hover {
+  background-color: #200a5e;
+  color: white;
+}
+
+body .container .first .contend .buttons #rigth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body .container .first .contend .buttons #rigth #try {
+  background-color: #FABFCA;
+  visibility: hidden;
+}
+
+body .container .first .contend .buttons #rigth #next {
+  background-color: #110f1b;
+  visibility: hidden;
+  color: white;
+}
+
+body .container .first .contend .buttons #rigth #next:hover {
+  color: #9CA9FB;
+}
+
+@media only screen and (max-width: 767px) {
+  body .container .first {
+    width: 90%;
+  }
+  body .container .first h1 {
+    font-size: 30px;
+  }
+  body .container .first .line {
+    width: 100%;
+  }
+  body .container .first .contend {
+    font-size: 20px;
+  }
+  body .container .first .contend #printf {
+    width: 8%;
+  }
+}
+/*# sourceMappingURL=new.css.map */

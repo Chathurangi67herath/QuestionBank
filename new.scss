@@ -1,0 +1,148 @@
+$color:rgb(32, 10, 94);
+$color2:rgb(133, 132, 136);
+$color3:white;
+$color4:rgb(17, 15, 27);
+$color5:rgb(179, 179, 187);
+$color6:#9CA9FB;
+
+body{
+background-color:$color4;
+
+.container{
+    background-color: $color2;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  
+
+    .first{
+        background-color:$color5 ;
+        width: 50%;
+        height: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .line{
+           height: 1%;
+           border-radius: 15px;
+           margin-top: 2.5%;
+        
+        }
+        #one{
+            position: absolute;
+            z-index: 1;
+            width: 50%;  //absolute to body
+        }
+        #two{
+            position: absolute;
+            z-index: 2;
+            background-color: $color;
+            width: 25%;
+        }
+ 
+
+    .contend{
+        font-size:150%;
+        padding-top: 10%;
+
+        .answer{
+            background-color:$color3 ;
+            margin-top: 10%;
+            padding: 5%;
+            border-radius: 5px;
+
+            .input{
+                height: 30px;
+                font-size:large;
+                color:$color;  
+                text-align: center;
+            }
+            #printf{
+                width: 15%;
+            }
+            #quotes{
+                width: 5%;
+            }
+            #semicolan{
+                width: 5%;
+            }
+        }
+
+        .well{
+            color:$color3 ;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            padding: 3%;
+            margin-top: 8%;
+            visibility:hidden;
+        }
+
+      .buttons{
+        margin-top: 3%;
+        display: flex;
+        
+        .bottom{
+            width: 50%;
+            height: 100px;
+        }
+         .btn{
+            width:34%;
+            height: 50%;
+            font-size: 70%;
+         }  
+         .btn:hover{
+            background-color: $color;
+            color: $color3;
+         }
+         #rigth{
+            display: flex;
+            flex-direction: row-reverse;
+
+            #try{
+                background-color: #FABFCA;
+                visibility:hidden;
+               
+            }
+            #next{
+                background-color: $color4;
+                visibility:hidden;
+                color: $color3;
+            }
+            #next:hover{
+                color: $color6;
+             }
+        
+         }
+        }
+      }  
+        
+    }
+    }
+
+}
+
+@media only screen  and (max-width:767px){
+    body{
+        .container{
+            .first{
+                width: 90%;
+                h1{
+                    font-size: 30px;
+                }
+               
+                .line{
+                  width: 100%;
+                 }
+            .contend{
+                font-size: 20px;
+                    #printf{
+                        width: 8%;
+
+                  }} 
+           
+                  
+            }
+            }
+    }}
