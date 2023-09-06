@@ -72,6 +72,22 @@ body .container .first .contend .answer #semicolan {
   width: 5%;
 }
 
+body .container .first .contend .answer #chamodi {
+  width: 15%;
+}
+
+body .container .first .contend .answer #scanf {
+  width: 15%;
+}
+
+body .container .first .contend .answer #variable {
+  width: 10%;
+}
+
+body .container .first .contend .answer #percentage {
+  width: 7%;
+}
+
 body .container .first .contend .well {
   color: white;
   display: -webkit-box;

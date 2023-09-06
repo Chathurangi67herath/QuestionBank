@@ -20,7 +20,7 @@ document.getElementById("submit").onclick = function(){
         document.getElementById("try").style.visibility="visible";
 
        
-       if(x!="printf") {
+       if(x!="chamodi") {
         document.getElementById("chamodi").style.backgroundColor="#FABFCA";
        }
       
