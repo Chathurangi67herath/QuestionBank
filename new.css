@@ -96,6 +96,14 @@ body .container .first .contend .answer #equal {
   width: 7%;
 }
 
+body .container .first .contend .answer #a, body .container .first .contend .answer #b {
+  width: 5%;
+}
+
+body .container .first .contend .answer #c, body .container .first .contend .answer #d {
+  width: 3%;
+}
+
 body .container .first .contend .well {
   color: white;
   display: -webkit-box;

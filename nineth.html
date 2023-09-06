@@ -10,40 +10,42 @@
   <body>
     <div class="container">
       <div class="first">
-        <hr class="line" id="one" />
         <hr class="line" id="two" />
+        <hr class="line" id="one" />
         <div class="contend">
           <div class="title">
-            <h1>Multiply two Floating Point Numbers</h1>
+            <h1>Print Prime Numbers From 1 to N</h1>
           </div>
-          <p>Fill the blanks with correct syntax.</p>
+          <p>What is the keyword for this blank.</p>
           <div class="answer">
-            float multiply(<input
-              type="text"
-              class="input"
-              id="variable"
-              maxlength="5"
-            />
-            a, float b) { <br />
-            return a
-            <input type="text" class="input" id="percentage" maxlength="1" /> b;
-            &nbsp; } <br /><br />
             int main() &nbsp; {<br />
 
-            float A = 2.12, B = 3.88, product;<br />
+            int num,i,count,n;<br />
+            printf("Enter max range: ");<br />
+            scanf("%d",&n);<br />
 
-            product =
-            <input type="text" class="input" id="printf" maxlength="8" /> (A,
-            B);<br />
+            for(num = 1;num<=n;num++){<br />
 
-            printf("Product of entered numbers is:%.3f", product); <br />
+            count = 0;<br />
+
+            for(i=2;i<=num/2;i++){<br />
+            if(num%i==0){<br />
+            count++;<br />
+            <input type="text" class="input" id="printf" maxlength="5" />;<br />
+            }<br />
+            }<br />
+
+            if(count==0 && num!= 1)<br />
+            printf("%d ",num);<br />
+            }<br />
+
             return 0; &nbsp; }
           </div>
           <hr />
           <div class="well" id="we"></div>
           <div class="buttons">
             <div class="bottom">
-              <a href="fifth.html"
+              <a href="eightth.html"
                 ><button class="btn" id="back">Back</button></a
               >
             </div>
@@ -51,14 +53,14 @@
               <button class="btn" id="submit">Submit</button>
               <button class="btn" id="try">Try Again !</button>
               <button class="btn" id="next">
-                <a href="seventh.html">Next</a>
+                <a href="tenth.html">Next</a>
               </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="sixth.js"></script>
+    <script src="nineth.js"></script>
     <script src="https://www.wpromotions.eu/confetti.min.js"></script>
   </body>
 </html>
