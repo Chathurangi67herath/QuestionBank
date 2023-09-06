@@ -88,6 +88,10 @@ body .container .first .contend .answer #percentage {
   width: 7%;
 }
 
+body .container .first .contend .answer #symbol {
+  width: 7%;
+}
+
 body .container .first .contend .well {
   color: white;
   display: -webkit-box;
